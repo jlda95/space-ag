@@ -63,7 +63,9 @@
                               </v-row>
                             </v-col>
                             <v-col :cols="1" @click="deleteMarker(marker)">
-                              <v-icon center>mdi-delete</v-icon>
+                              <v-btn>
+                                <v-icon center>mdi-delete</v-icon>
+                              </v-btn>
                             </v-col>
                           </v-col>
                         </v-row>
