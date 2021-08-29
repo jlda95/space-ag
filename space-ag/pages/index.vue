@@ -73,7 +73,10 @@
                     >/>
                   </l-marker>
                   <l-circle
-                    :lat-lng="marker.latLng"
+                    :lat-lng="[
+                      marker.position.latitude,
+                      marker.position.longitude,
+                    ]"
                     :radius="Number(marker.radio)"
                   />
                 </span>
